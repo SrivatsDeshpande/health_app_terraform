@@ -3,7 +3,7 @@ resource "aws_lambda_function" "test_lambda" {
   role = aws_iam_role.lambda_role.arn
   runtime = "python3.12"
   handler = "dummy.lambda.lambda_handler"
-  description = "stupid changes"
+  description = "changes"
   
 
   filename = "dummy.zip"
